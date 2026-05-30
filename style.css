@@ -235,6 +235,8 @@ body {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
 }
 
 .project-image {
@@ -251,6 +253,9 @@ body {
 
 .project-content {
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .project-content h3 {
@@ -270,6 +275,8 @@ body {
     color: #2563eb;
     text-decoration: none;
     font-weight: 600;
+
+    margin-top: auto;
 }
 
 .project-content a:hover {
