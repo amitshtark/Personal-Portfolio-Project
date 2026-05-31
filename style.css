@@ -49,6 +49,9 @@ body {
 .contact-info {
     text-align: center;
 }
+.social-links {
+    justify-content: center;
+}
 
 .header {
     background-color: white;
