@@ -44,6 +44,11 @@ body {
     align-items: center;
 }
 
+.about-text,
+.skills,
+.contact-info {
+    text-align: center;
+}
 
 .header {
     background-color: white;
