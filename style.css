@@ -49,6 +49,11 @@ body {
 .contact-info {
     text-align: center;
 }
+.skill {
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .social-links {
     justify-content: center;
 }
@@ -219,22 +224,30 @@ body {
 }
 
 .skill {
-    margin-bottom: 1.3rem;
+    max-width: 850px;
+    margin: 0 auto 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
 }
 
 .skill span {
-    display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
     font-weight: 500;
-    color: #334155;
+    color: #1f2937;
+    font-size: 1.4rem;
+    text-align: left;
 }
 
 .skill-bar {
-    width: 100%;
+    width: 220px;
     height: 10px;
     background-color: #e2e8f0;
     border-radius: 999px;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .skill-progress {
@@ -518,6 +531,30 @@ body {
 
     .about-text {
         margin-bottom: 0;
+    }
+    .about-text,
+    .skills,
+    .contact-info {
+        text-align: left;
+    }
+    .skill {
+    max-width: none;
+    margin: 0 0 1.3rem;
+    display: block;
+    }
+
+    .skill span {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .skill-bar {
+        width: 100%;
+    }
+
+    .social-links {
+        justify-content: flex-start;
     }
 
     .contact-form {
