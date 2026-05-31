@@ -491,11 +491,8 @@ body {
 
 .footer-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-
     text-align: center;
 }
 
@@ -563,12 +560,6 @@ body {
 
     .send-button {
         width: fit-content;
-    }
-
-    .footer-container {
-        flex-direction: row;
-        justify-content: space-between;
-        text-align: left;
     }
 }
 
