@@ -4,196 +4,242 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Amit Shtark</title>
-    <link rel="stylesheet" href="style.css"></head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
+
     <div class="page">
+
         <header class="header">
             <div class="container header-container">
+
                 <div class="logo">Amit Shtark</div>
+
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+                <label for="nav-toggle" class="hamburger">
+                    ☰
+                </label>
+
                 <nav class="navbar">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
                 </nav>
+
             </div>
         </header>
+
         <main>
+
             <section class="profile" id="home">
-            <div class="container profile-container">
+                <div class="container">
+                    <div class="row align-center">
 
-                <div class="profession-text">
-                <h1>Full-Stack Developer</h1>
-                <p>
-                   Computer Science student in my final semester with hands-on experience in backend development,
-                    automation, and systems programming. I enjoy building clean,
-                     scalable applications and turning ideas into practical software products.
-                </p>
-                <a class="primary-button" href="#contact">Get In Touch</a>
-                </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="profession-text">
+                                <h1>Full-Stack Developer</h1>
+                                <p>
+                                    Computer Science student in my final semester with hands-on experience in backend development,
+                                    automation, and systems programming. I enjoy building clean, scalable applications and turning ideas
+                                    into practical software products.
+                                </p>
+                                <a class="primary-button" href="#contact">Get In Touch</a>
+                            </div>
+                        </div>
 
-                <div class="profile-photo">
-                <div class="photo-circle">
-                        <img src="images/profile_photo.jpeg" alt="profile photo">
-                </div>
-                </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="profile-photo">
+                                <div class="photo-circle">
+                                    <img src="images/profile_photo.jpeg" alt="Amit Shtark profile photo">
+                                </div>
+                            </div>
+                        </div>
 
-            </div>
+                    </div>
+                </div>
             </section>
 
             <section class="about" id="about">
-                <div class="container about-container">
+                <div class="container">
+                    <div class="row">
 
-                    <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>
-                        I’m a Computer Science student with experience in full-stack development, backend systems, and automation.
-                         I enjoy building useful products, working with APIs and databases,
-                          and turning ideas into real applications.
-                    </p>
-                    </div>
-
-                    <div class="skills">
-                    <h3>Skills</h3>
-
-                    <div class="skill">
-                        <span>Java</span>
-                        <div class="skill-bar">
-                        <div class="skill-progress javascript"></div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="about-text">
+                                <h2>About Me</h2>
+                                <p>
+                                    I’m a Computer Science student with experience in full-stack development,
+                                    backend systems, and automation. I enjoy building useful products,
+                                    working with APIs and databases, and turning ideas into real applications.
+                                </p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="skill">
-                        <span>Python</span>
-                        <div class="skill-bar">
-                        <div class="skill-progress react"></div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="skills">
+                                <h3>Skills</h3>
+
+                                <div class="skill">
+                                    <span>Java</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress java"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill">
+                                    <span>Python</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress python"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill">
+                                    <span>React</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress react"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill">
+                                    <span>Databases</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress databases"></div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="skill">
-                        <span>React</span>
-                        <div class="skill-bar">
-                        <div class="skill-progress node"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill">
-                        <span>Databases</span>
-                        <div class="skill-bar">
-                        <div class="skill-progress mongo"></div>
-                        </div>
-                    </div>
 
                     </div>
-
                 </div>
             </section>
 
             <section class="projects" id="projects">
-            <div class="container">
-                <h2>My Projects</h2>
+                <div class="container">
 
-                <div class="projects-grid">
+                    <h2>My Projects</h2>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/ai-crypto-advisor.png" alt="AI Crypto Advisor screenshot">
-                    </div>
-                    <div class="project-content">
-                        <h3>AI Crypto Advisor</h3>
-                        <p>
-                            A full-stack crypto dashboard with live market data, user authentication, AI-generated insights, caching, fallback handling, and personalized asset tracking for a smoother user experience.
-                        </p>
-                        <a href="https://ai-crypto-advisor-frontend-sigma.vercel.app/login" target="_blank">
-                            View Project
-                        </a>
+                    <div class="row">
+
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="images/ai-crypto-advisor.png" alt="AI Crypto Advisor screenshot">
+                                </div>
+
+                                <div class="project-content">
+                                    <h3>AI Crypto Advisor</h3>
+                                    <p>
+                                        A full-stack crypto dashboard with live market data, user authentication,
+                                        AI-generated insights, caching, fallback handling, and personalized asset tracking
+                                        for a smoother user experience.
+                                    </p>
+                                    <a href="https://ai-crypto-advisor-frontend-sigma.vercel.app/login" target="_blank">
+                                        View Project
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="images/taskflow-react.png" alt="TaskFlow project screenshot">
+                                </div>
+
+                                <div class="project-content">
+                                    <h3>TaskFlow</h3>
+                                    <p>
+                                        A React productivity app for managing projects and tasks,
+                                        with authentication, board views, filters, search, and reusable UI components.
+                                    </p>
+                                    <a href="https://github.com/amitshtark/TaskFlow-React" target="_blank">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="images/lehem_yayin.png" alt="Lehem Yayin project screenshot">
+                                </div>
+
+                                <div class="project-content">
+                                    <h3>Lehem_Yayin</h3>
+                                    <p>
+                                        An inventory and expense management system using PostgreSQL,
+                                        OCR processing, and automated data extraction.
+                                    </p>
+                                    <a href="https://github.com/amitshtark/lehem_yayin" target="_blank">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/taskflow-react.png" alt="TaskFlow project screenshot">
-                    </div>
-                    <div class="project-content">
-                    <h3>TaskFlow</h3>
-                    <p>
-                        A React productivity app for managing projects and tasks,
-                        with authentication, board views, filters, search, and
-                        reusable UI components.
-                    </p>
-                    <a href="#">View Project</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image"> 
-                        <img src="images/lehem_yayin.png" alt="Lehem Yayin project screenshot">
-                    </div>
-                    <div class="project-content">
-                    <h3>Lehem_Yayin</h3>
-                    <p>
-                        An inventory and expense management system using PostgreSQL,
-                        OCR processing, and automated data extraction.
-                    </p>
-                    <a href="#">View Project</a>
-                    </div>
-                </div>
-
-                </div>
-            </div>
             </section>
 
             <section class="contact" id="contact">
                 <div class="container">
+
                     <h2>Get In Touch</h2>
 
-                    <div class="contact-container">
+                    <div class="row">
 
-                    <form class="contact-form">
-                        <label for="name">Name</label>
-                        <input id="name" type="text">
+                        <div class="col-sm-12 col-md-8">
+                            <form class="contact-form">
+                                <label for="name">Name</label>
+                                <input id="name" type="text">
 
-                        <label for="email">Email</label>
-                        <input id="email" type="email">
+                                <label for="email">Email</label>
+                                <input id="email" type="email">
 
-                        <label for="message">Message</label>
-                        <textarea id="message"></textarea>
+                                <label for="message">Message</label>
+                                <textarea id="message"></textarea>
 
-                        <button class="send-button" type="submit">Send Message</button>
-                    </form>
-
-                    <div class="contact-info">
-                        <h3>Contact Information</h3>
-
-                        <a href="mailto:amit.shtark@gmail.com">📧 amit.shtark@gmail.com</a>
-                        <a href="tel:+972525275586">📱 0525275586</a>
-                        <p>📍 Tel-Aviv, Israel</p>
-
-                        <div class="social-links">
-                            <a href="https://www.linkedin.com/in/amit-shtark-b56383276" target="_blank" aria-label="LinkedIn">
-                                in
-                            </a>
-
-                            <a href="https://github.com/amitshtark" target="_blank" aria-label="GitHub">
-                                <img src="images/github-icon.svg" alt="GitHub icon">
-                            </a>
-
-                            <a href="https://x.com/" target="_blank" aria-label="X">
-                                <img src="images/x-icon.svg" alt="X icon">
-                            </a>
+                                <button class="send-button" type="submit">Send Message</button>
+                            </form>
                         </div>
-                    </div>
+
+                        <div class="col-sm-12 col-md-4">
+                            <div class="contact-info">
+                                <h3>Contact Information</h3>
+
+                                <a href="mailto:amit.shtark@gmail.com">📧 amit.shtark@gmail.com</a>
+                                <a href="tel:+972525275586">📱 0525275586</a>
+                                <p>📍 Tel Aviv, Israel</p>
+
+                                <div class="social-links">
+                                    <a href="https://www.linkedin.com/in/amit-shtark-b56383276" target="_blank" aria-label="LinkedIn">
+                                        in
+                                    </a>
+
+                                    <a href="https://github.com/amitshtark" target="_blank" aria-label="GitHub">
+                                        <img src="images/github-icon.svg" alt="GitHub icon">
+                                    </a>
+
+                                    <a href="https://x.com/" target="_blank" aria-label="X">
+                                        <img src="images/x-icon.svg" alt="X icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
             </section>
+
         </main>
+
         <footer class="footer">
             <div class="container footer-container">
                 <p>© 2026 Amit Shtark. All rights reserved.</p>
                 <p>Built with HTML, CSS, and Flexbox.</p>
             </div>
         </footer>
+
     </div>
+
 </body>
 </html>
